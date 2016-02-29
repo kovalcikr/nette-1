@@ -1,0 +1,26 @@
+ucitel -> ziak
+
+ucitel -> ucitel
+
+ziak -> ziak
+
+------------------
+
+user: userId
+
+friend: userId1, userId2
+
+CREATE TABLE ... (
+INT userId1,
+INT userId2,
+PRIMARY KEY (userId1, userId2);
+CHECK (userId1 < userI2)
+)
+
+---------------------
+
+firend:
+userId1 | userId2
+--------|---------
+   1    |    2
+   2    |    1
